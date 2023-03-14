@@ -1,4 +1,4 @@
-------------------Searching through an Array---------------------
+///////////////////Searching through an Array///////////////////
 public class Main {
   public static void main(String[] args) {
     String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
@@ -10,7 +10,7 @@ public class Main {
   }
 }
 
-------------------Searching through a 2D Array---------------------
+///////////////////Searching through a 2D Array///////////////////
 public class Main {
   public static void main(String[] args) {
     int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
@@ -26,7 +26,7 @@ public class Main {
   }
 }
 
----------------------Coverting a sentence to an Array-----------------
+///////////////////Coverting a sentence to an Array///////////////////
 public class Main {
  
  public static void main(String args[]){
@@ -57,7 +57,7 @@ public class Main {
 }
 
 
------------------Coverting a sentence to an Array and Reversed-----------------
+///////////////////Coverting a sentence to an Array and Reversed///////////////////
 public class Main {
  
  public static void main(String args[]){
@@ -85,7 +85,7 @@ public class Main {
 }
 
 
-------------------Converting a word into an Array-----------------------------
+///////////////////Converting a word into an Array///////////////////
 public class Main {
  
  public static void main(String args[]){
@@ -115,7 +115,7 @@ public class Main {
  
 }
 
--------------Converting a word into an Array and Reversed-----------------------
+///////////////////Converting a word into an Array and Reversed///////////////////
 public class Main {
  
  public static void main(String args[]){
@@ -156,8 +156,8 @@ public class Main {
 
 }
 
--------------Converting a word into an Array and Reversed-----------------------
---------------------------Checking for palindrone-------------------------------
+///////////////////Converting a word into an Array and Reversed///////////////////
+///////////////////Checking for palindrone///////////////////
 public class Main {
  
  public static void main(String args[]){
