@@ -157,7 +157,7 @@ public class Main {
 }
 
 ///////////////////Converting a word into an Array and Reversed///////////////////
-///////////////////Checking for palindrone///////////////////
+///////////////////Checking for palindrome///////////////////
 public class Main {
  
  public static void main(String args[]){
@@ -196,14 +196,65 @@ public class Main {
  System.out.println("Original word: " + str);
  System.out.println("Reversed word: " + reversed);
  
- //Comparing the two strings to check for palindrone
+ //Comparing the two strings to check for palindrome
  if (str.compareTo(reversed) == 0){
-  System.out.println("The word you entered is a palindrone");
+  System.out.println("The word you entered is a palindrome");
  }
  else{
- System.out.println("The word you entered is not a palindrone");
+ System.out.println("The word you entered is not a palindrome");
  }
  
  }
 
 }
+
+///////////////////Converting a word into an Array and Reversed///////////////////
+///////////////////Checking for palindrome///////////////////
+///////////////////Using a Method///////////////////
+public class Main {
+
+ //Creating the Method that will check whether the word is a palindrome
+ static void CheckPalindrone(String str){
+ 
+ //Creating an Array to store the word
+ char[] ch = new char[str.length()];
+ 
+ //Copying character by character into array
+ for(int i=0; i < str.length(); i++){
+	ch[i] = str.charAt(i);
+ }
+ 
+ //variable that I am going to use to store the reversed Word
+ String reversed = "";
+ 
+ //Reverse elements of String array
+ for(int i=str.length() -1 ; i>=0; i--){
+ 
+ reversed = reversed + ch[i];
+ }
+ 
+ //Comparing the two strings to check for palindrome
+ if (str.compareTo(reversed) == 0){
+  System.out.println("Input entered:  " + str);
+  System.out.println("Input reversed: " + reversed);
+  System.out.println("The word you entered is a palindrome");
+ }
+ else{
+ System.out.println("Input entered:  " + str);
+ System.out.println("Input reversed: " + reversed);
+ System.out.println("The word you entered is not a palindrome");
+ }
+ 
+ 
+ }//end of Method
+ 
+ 
+ public static void main(String args[]){
+
+ //Calling the Method
+CheckPalindrone("Wayline");
+
+ }//end of main
+
+}//end of Main
+
